@@ -1,4 +1,3 @@
-
 // 1 Задание
 
 
@@ -8,25 +7,23 @@ console.log(x);
 
 console.log(typeof x);
 
-if (isNaN(x)){
+if (isNaN(x)) {
     console.log('Упс, кажется, вы ошиблись');
-} else if(x% 2 === 0) {
-console.log('Четное число');
+} else if (x % 2 === 0) {
+    console.log('Четное число');
 } else {
     console.log('Нечетное число');
-}
+};
 
 // 2 Задание
 
-x = 5 > 3
+x = 5 > 3;
 
-if(typeof(x) === 'number') {
+if (typeof (x) === 'number') {
     console.log('X — число')
-}
-else if(typeof(x) === 'string'){
+} else if (typeof (x) === 'string') {
     console.log(`Тип x не определён`)
-}
-else if(typeof(x) === 'boolean') {
+} else if (typeof (x) === 'boolean') {
     console.log(`Тип x не определён`)
 }
 
@@ -61,16 +58,16 @@ for (i = 0; i < array.length; i++) {
 
 let array1 = [1, 3, 4, 7, 9, 11];
 
-for (let i=0; i < array1.length; i++) {
+for (let i = 0; i < array1.length; i++) {
     function unique(array1) {
-        if (unique(array1))  {
+        if (unique(array1)) {
             console.log(true)
-        }else {
+        } else {
             console.log(false)
         }
     }
 }
-func(array1);
+function(array1);
 
 // Задание 7
 
@@ -92,7 +89,8 @@ array5.forEach((element) => {
         }
     }
 });
-function isNumber (element){
+
+function isNumber(element) {
     return typeof element === 'number';
 };
 
@@ -112,6 +110,3 @@ myMap.forEach((value, key, map) => {
     console.log(`Ключ - ${key}, значение - ${value}`)
 
 })
-
-
-
