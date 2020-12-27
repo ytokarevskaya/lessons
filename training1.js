@@ -67,7 +67,7 @@ for (let i = 0; i < array1.length; i++) {
         }
     }
 }
-function(array1);
+func(array1);
 
 // Задание 7
 
@@ -110,3 +110,4 @@ myMap.forEach((value, key, map) => {
     console.log(`Ключ - ${key}, значение - ${value}`)
 
 })
+
