@@ -31,7 +31,7 @@ console.log('Nans', nans);
 
 GetNansEvensOddsFromArray();
 
-//Task 2
+//Task 2 Вопрос обязательно писать let result = '';???
 
 function prime(num){
     let isPrime = true;
@@ -49,15 +49,9 @@ function prime(num){
         return result
     }
     console.log(prime(2));
-
-
-
-// let numm1 = 55;
-// console.log(simplNum(numm1))
-
-
-//  Task 3
-
+// Task 3 Напишите как работает вот эти строки, не совсем разобрался.
+// const getSum = getNum(22);
+// getSum(21);
 function getNum(num1){
     return function getNum2(num2){
      console.log(num1 + num2);
